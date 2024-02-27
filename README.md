@@ -10,6 +10,9 @@
 ![GitHub issues](https://img.shields.io/github/issues-raw/<jiangchaokang>/<3DSFLabelling>)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/<jiangchaokang>/<3DSFLabelling>)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/<jiangchaokang>/<3DSFLabelling>)
-</div>
 
 #### The code is gradually being released, please be patient.
+[poster coming soon] [video coming soon]
+</div>
+
+
