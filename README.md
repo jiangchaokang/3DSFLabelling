@@ -1,7 +1,7 @@
 <div align="center">    
 
 ## 3DSFLabelling: Boosting 3D Scene Flow Estimation by Pseudo Auto-labelling
-### CVPR 2024 (Unknown)  <img src="images/celebration.gif" width="50" height="50" alt="Celebration"/>
+### CVPR 2024 (Unknown)  <img src="images/celebration.gif" width="35" height="35" alt="Celebration"/>
 
 [![Arxiv](http://img.shields.io/badge/Arxiv-2402.10668-B31B1B.svg)](https://arxiv.org/abs/2302.10668)
 [![CVPR](http://img.shields.io/badge/CVPR-2024-4b44ce.svg)](https://arxiv.org/abs/2302.10668)
