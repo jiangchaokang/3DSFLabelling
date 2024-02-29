@@ -9,7 +9,8 @@
 ![GitHub stars](https://img.shields.io/github/stars/jiangchaokang/3DSFLabelling)
 ![GitHub contributors](https://img.shields.io/github/contributors/jiangchaokang/3DSFLabelling)
 ![GitHub issues](https://img.shields.io/github/issues-raw/jiangchaokang/3DSFLabelling)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/jiangchaokang/3DSFLabelling)
+![GitHub release (custom)](https://img.shields.io/badge/release-V0.1-blue)
+
 
 #### The code is gradually being released, please be patient.
 [poster coming soon] [video coming soon]
