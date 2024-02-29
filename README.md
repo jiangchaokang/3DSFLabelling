@@ -12,7 +12,6 @@
 ![GitHub release (custom)](https://img.shields.io/badge/release-V0.1-blue)
 ![Downloads](https://img.shields.io/github/downloads/jiangchaokang/3DSFLabelling/total)
 ![Maintenance](https://img.shields.io/maintenance/yes/2024)
-![Open Collective](https://img.shields.io/opencollective/backers/jiangchaokang)
 
 
 #### The code is gradually being released, please be patient.
