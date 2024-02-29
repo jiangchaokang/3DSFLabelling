@@ -1,5 +1,5 @@
 <div align="center">    
-<img src="images/logo.jpg" width="180" height="50" alt="Celebration"/>
+<img src="images/logo.jpg" width="350" height="90" alt="Celebration"/>
 
 ## **[CVPR 2024]** 3DSFLabelling: Boosting 3D Scene Flow Estimation by Pseudo Auto-labelling 
 [![Arxiv](http://img.shields.io/badge/Arxiv-2402.10668-B31B1B.svg)](https://arxiv.org/abs/2402.18146)
