@@ -1,9 +1,9 @@
 <div align="center">    
 
-## <span style="color:red;">[CVPR 2024]</span> 3DSFLabelling: Boosting 3D Scene Flow Estimation by Pseudo Auto-labelling <img src="images/celebration.gif" width="35" height="35" alt="Celebration"/>
-
+## **[CVPR 2024]** 3DSFLabelling: Boosting 3D Scene Flow Estimation by Pseudo Auto-labelling 
 [![Arxiv](http://img.shields.io/badge/Arxiv-2402.10668-B31B1B.svg)](https://arxiv.org/abs/2402.18146)
 [![CVPR](http://img.shields.io/badge/CVPR-2024-4b44ce.svg)](https://arxiv.org/pdf/2402.18146.pdf)
+<img src="images/celebration.gif" width="35" height="35" alt="Celebration"/>
 
 ![GitHub stars](https://img.shields.io/github/stars/jiangchaokang/3DSFLabelling)
 ![GitHub contributors](https://img.shields.io/github/contributors/jiangchaokang/3DSFLabelling)
