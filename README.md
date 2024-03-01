@@ -13,6 +13,7 @@
 ![Downloads](https://img.shields.io/github/downloads/jiangchaokang/3DSFLabelling/total)
 ![Maintenance](https://img.shields.io/maintenance/yes/2024)
 
+Check out the project demo here: [3DSFLabelling-Page](https://jiangchaokang.github.io/3DSFLabelling-Page/)
 
 #### The code is gradually being released, please be patient.
 [poster coming soon] [video coming soon]
