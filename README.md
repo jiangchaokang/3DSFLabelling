@@ -17,6 +17,10 @@ Check out the project demo here: [3DSFLabelling-Page](https://jiangchaokang.gith
 
 #### The code is gradually being released, please be patient.
 [poster coming soon] [video coming soon]
+
+| Description | Sketch Fig. |
+|-------------|-------|
+| The proposed 3D scene flow pseudo-auto-labelling framework. Given point clouds and initial bounding boxes, both global and local motion parameters are iteratively optimized. Diverse motion patterns are augmented by randomly adjusting these motion parameters.| ![The proposed 3D scene flow pseudo-auto-labelling framework. Given point clouds and initial bounding boxes, both global and local motion parameters are iteratively optimized. Diverse motion patterns are augmented by randomly adjusting these motion parameters.](images/abstract.jpg) |
 </div>
 
 
