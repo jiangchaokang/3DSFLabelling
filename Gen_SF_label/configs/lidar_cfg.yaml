@@ -1,0 +1,39 @@
+misc:
+  run_mode: test # Mode to run the network in
+  num_points: 99999 # Number of points
+  use_gpu: True # If GPU should be used or not
+  visualize: False
+
+data:
+  dataset: LidarKITTI_ME # Name of the dataset [StereoKITTI_ME, FlyingThings3D_ME, SemanticKITTI_ME, LidarKITTI_ME, WaymoOpen_ME]
+  root: /mnt/cfs/algorithm/chaokang.jiang/3DSFLabeling/Driving_datasets/odKITTI/Raw_od_LIDAR/dataset/processed_kitti_lidar # Path to the data
+  remove_ground: True # Remove ground by simple thresholding of the height coordinate
+  augment_data: False # Augment the data by random rotation and translation
+  only_near_points: False # Only consider near points (less than 35m away) [Used in all scene flow algorithms]
+  only_front_points: False
+  filter_normals: False
+
+test:
+  batch_size: 6 # Test batch size
+  num_workers: 64 # Num of workers to use for the test data set
+  
+hyperparameters:
+  box_depth: 4
+  box_scale: 1.25
+  sigmoid_slope: 8
+  epsilon: .03
+  background_boost_coeff: 0
+  heading_loss_coeff: 1000
+  angle_loss_coeff: .01
+  mass_loss_coeff: .002
+  dim_loss_coeff: 8
+  prune_threshold: 50
+  confidence_threshold: .85
+  seg_threshold: .03
+  print_loss: False
+  lr: .018
+  epochs: 1500
+  delta_threshold: 0
+  cycle: False
+  cycle_threshold: 0
+  evaluate_train: False
