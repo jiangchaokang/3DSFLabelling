@@ -14,5 +14,9 @@ CUDA_VISIBLE_DEVICES=1 nohup python3 optimizer_sf_label.py --cfg configs/argover
 # data 
 
 waymo_open: pc1, pc2, sem_label_s, sem_label_t, inst_label_s, inst_label_t, mot_label_s, mot_label_t, pose_s, pose_t
+
+
 semantic_kitti: pc1, pc2, pose_s, pose_t
+
+
 argoverse: pc1, pc2, mask1_tracks_flow, mask2_tracks_flow
