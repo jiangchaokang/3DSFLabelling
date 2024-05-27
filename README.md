@@ -68,15 +68,15 @@ Still in progress:
 
 | Method | Dataset | Pre-trained Model | EPE3D |
 |:------:|:--------:|:------------------:|:-----:|
-| [GMSF](https://proceedings.neurips.cc/paper_files/paper/2023/hash/cb1c4782f159b55380b4584671c4fd88-Abstract-Conference.html)   | lidarKITTI | gmsf_lidarKITTI_epe0.008.pth | 0.008 |
-| [GMSF](https://proceedings.neurips.cc/paper_files/paper/2023/hash/cb1c4782f159b55380b4584671c4fd88-Abstract-Conference.html)   | Argoverse   | gmsf_argoverse_epe0.013.pth | 0.013 |
-| [GMSF](https://proceedings.neurips.cc/paper_files/paper/2023/hash/cb1c4782f159b55380b4584671c4fd88-Abstract-Conference.html)   | nuScenes    | gmsf_nuScene_epe0.018.pth | 0.018 |
-| [FLOT](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730528.pdf)   | lidarKITTI | flot_lidarKITTI_epe0.018.tar | 0.018 |
-| [FLOT](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730528.pdf)   | Argoverse   | flot_argoverse_epe0.043.tar | 0.043 |
-| [FLOT](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730528.pdf)   | nuScenes    | flot_nuScenes_epe0.061.tar | 0.061 |
-| [MSBRN](https://openaccess.thecvf.com/content/ICCV2023/papers/Cheng_Multi-Scale_Bidirectional_Recurrent_Network_with_Hybrid_Correlation_for_Point_Cloud_ICCV_2023_paper.pdf)  | lidarKITTI | msbrn_lidarKITTI_epe0.011.pth | 0.0110 |
-| [MSBRN](https://openaccess.thecvf.com/content/ICCV2023/papers/Cheng_Multi-Scale_Bidirectional_Recurrent_Network_with_Hybrid_Correlation_for_Point_Cloud_ICCV_2023_paper.pdf)   | Argoverse   | msbrn_argoverse_epe0.017.pth | 0.017 |
-| [MSBRN](https://openaccess.thecvf.com/content/ICCV2023/papers/Cheng_Multi-Scale_Bidirectional_Recurrent_Network_with_Hybrid_Correlation_for_Point_Cloud_ICCV_2023_paper.pdf)   | nuScenes    | msbrn_nuScenes_epe0.076.pth | 0.076 |
+| [GMSF](https://proceedings.neurips.cc/paper_files/paper/2023/hash/cb1c4782f159b55380b4584671c4fd88-Abstract-Conference.html)   | lidarKITTI | [gmsf_lidarKITTI_epe0.008.pth](https://drive.google.com/file/d/1EhkAP1cPZt3OgLW9Vw5l8qfBTAMtEwtG/view?usp=drive_link) | 0.008 |
+| [GMSF](https://proceedings.neurips.cc/paper_files/paper/2023/hash/cb1c4782f159b55380b4584671c4fd88-Abstract-Conference.html)   | Argoverse   | [gmsf_argoverse_epe0.013.pth](https://drive.google.com/file/d/1fbQqIgPguFhFjA_0pNrM1rTmvAgejgIZ/view?usp=drive_link) | 0.013 |
+| [GMSF](https://proceedings.neurips.cc/paper_files/paper/2023/hash/cb1c4782f159b55380b4584671c4fd88-Abstract-Conference.html)   | nuScenes    | [gmsf_nuScene_epe0.018.pth](https://drive.google.com/file/d/1YzewTDHpYEyPAn7iIg8Mvy6hmSguDZx-/view?usp=drive_link) | 0.018 |
+| [FLOT](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730528.pdf)   | lidarKITTI | [flot_lidarKITTI_epe0.018.tar](sf_model/checkpoints/flot_lidarKITTI_epe0.018.tar) | 0.018 |
+| [FLOT](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730528.pdf)   | Argoverse   | [flot_argoverse_epe0.043.tar](sf_model/checkpoints/flot_argoverse_epe0.043.tar) | 0.043 |
+| [FLOT](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730528.pdf)   | nuScenes    | [flot_nuScenes_epe0.061.tar](sf_model/checkpoints/flot_nuScenes_epe0.061.tar) | 0.061 |
+| [MSBRN](https://openaccess.thecvf.com/content/ICCV2023/papers/Cheng_Multi-Scale_Bidirectional_Recurrent_Network_with_Hybrid_Correlation_for_Point_Cloud_ICCV_2023_paper.pdf)  | lidarKITTI | [msbrn_lidarKITTI_epe0.011.pth](sf_model/checkpoints/msbrn_lidarKITTI_epe0.011.pth) | 0.0110 |
+| [MSBRN](https://openaccess.thecvf.com/content/ICCV2023/papers/Cheng_Multi-Scale_Bidirectional_Recurrent_Network_with_Hybrid_Correlation_for_Point_Cloud_ICCV_2023_paper.pdf)   | Argoverse   | [msbrn_argoverse_epe0.017.pth](sf_model/checkpoints/msbrn_argoverse_epe0.017.pth) | 0.017 |
+| [MSBRN](https://openaccess.thecvf.com/content/ICCV2023/papers/Cheng_Multi-Scale_Bidirectional_Recurrent_Network_with_Hybrid_Correlation_for_Point_Cloud_ICCV_2023_paper.pdf)   | nuScenes    | [msbrn_nuScenes_epe0.076.pth](sf_model/checkpoints/msbrn_nuScenes_epe0.076.pth) | 0.076 |
 
 
 ## Comparative results <a name="Comparative"></a>
