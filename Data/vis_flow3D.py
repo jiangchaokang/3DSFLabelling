@@ -105,7 +105,7 @@ def find_npz_files(directory):
                 npz_files_list.append(full_path)
     return npz_files_list
 
-search_directory = '/mnt/cfs/algorithm/chaokang.jiang/rsf-Optimizing/sceneflow_eval_dataset/argoverse/withNormal'
+search_directory = '/sceneflow_eval_dataset/argoverse/withNormal'
 npz_files = find_npz_files(search_directory)
 
 # Call the visualization function
