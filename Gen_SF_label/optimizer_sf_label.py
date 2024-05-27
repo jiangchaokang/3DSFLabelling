@@ -351,9 +351,9 @@ def optimize(cfg):
         anchors_yz -= torch.mean(anchors_yz, dim=0, keepdim=True)
         anchors = torch.cat((torch.zeros(anchors_yz.shape[0], 1), anchors_yz, torch.stack([torch.tensor([anchor_width, anchor_length, anchor_height, 0])]*anchors_yz.shape[0], dim=0)), dim=1)
         anchors[:, 0] -= 4.5
-    # save_bounding_boxes_as_mesh(anchors, "/mnt/cfs/algorithm/chaokang.jiang/3DSFLabeling/Driving_datasets/argoverse/Argoverse2_LiDAR_SF/anchors.ply")
+    # save_bounding_boxes_as_mesh(anchors, "./3DSFLabeling/Driving_datasets/argoverse/Argoverse2_LiDAR_SF/anchors.ply")
     
-    # save_bounding_boxes_as_mesh(anchors, "/mnt/cfs/algorithm/chaokang.jiang/3DSFLabeling/Driving_datasets/argoverse/Argoverse2_LiDAR_SF/anchors.ply")
+    # save_bounding_boxes_as_mesh(anchors, "./3DSFLabeling/Driving_datasets/argoverse/Argoverse2_LiDAR_SF/anchors.ply")
     anchors = anchors.float().to(device='cuda')
 
     data = make_data_loader(cfg, phase='test', data_filename = args.data_filename)

@@ -1,12 +1,46 @@
+# ViDAR: Visual Point Cloud Forecasting
 
-cd /mnt/cfs/algorithm/chaokang.jiang/rsf-Optimizing/GMSF/
-pip install pytorch3d-0.7.2-cp38-cp38-linux_x86_64.whl -i https://pypi.tuna.tsinghua.edu.cn/simple
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple shapely pypng numba numpy==1.19.5
-cd ./Gen_SF_label
+## Table of Contents
 
-python3 optimizer_sf_label.py --cfg configs/lidar_cfg.yaml --error_filename ./log_vis/lidarKITTI/error
+1. [Installation](#installation)
+2. [Optimization](#train-and-evaluate)
 
-##  argoverse_cfg 
 
-CUDA_VISIBLE_DEVICES=0 nohup python3 optimizer_sf_label.py --cfg configs/argoverse_cfg.yaml --error_filename ./log_vis/argoverse_log/error --data_filename ./configs/argoverse_files/argoverse_file_name_0.txt  > ./log_vis/argoverse_log/file0.txt 2>&1 &
-CUDA_VISIBLE_DEVICES=1 nohup python3 optimizer_sf_label.py --cfg configs/argoverse_cfg.yaml --error_filename ./log_vis/argoverse_log/error --data_filename ./configs/argoverse_files/argoverse_file_name_1.txt  > 
+
+## Installation <a name="installation"></a>
+### Installing system software packages
+
+For convenience, we list the steps below:
+```bash
+sudo apt-get update
+sudo dpkg --set-selections < ./requirements/installed_packages.txt
+sudo apt-get dselect-upgrade
+```
+
+### Create a Python virtual environment (optional)
+```bash
+python3 -m venv new_env
+source new_env/bin/activate
+```
+
+### Install Python packages
+```bash
+pip3 install -r ./requirements/python_packages.txt
+```
+
+## Optimization <a name="train-and-evaluate"></a>
+
+```bash
+nohup python3 optimizer_sf_label.py \
+  --cfg configs/argoverse_cfg.yaml \
+  --error_filename ./log_vis/argoverse_log/error \
+  --data_filename ./configs/argoverse_files/argoverse_file_name_0.txt \
+  > ./log_vis/argoverse_log/file0.txt 2>&1 &
+```
+
+- `nohup` ensures that the script continues running after the terminal is closed or disconnected.
+- `python3` executes the Python script `optimizer_sf_label.py`.
+- `--cfg`, `--error_filename`, and `--data_filename` pass the configuration file path, error log file path, and data file path, respectively.
+- `>` and `2>&1` redirect the standard output and standard error to the specified log file.
+- `&` runs the command in the background.
+

@@ -305,7 +305,7 @@ def optimize(cfg):
         anchors_xy -= torch.mean(anchors_xy, dim=0, keepdim=True)
         anchors = torch.cat((anchors_xy, torch.stack([torch.tensor([z_center, anchor_width, anchor_length, anchor_height, 0])]*anchors_xy.shape[0], dim=0)), dim=1)
     
-    # save_bounding_boxes_as_mesh(anchors, "/mnt/cfs/algorithm/chaokang.jiang/rsf-Optimizing/sceneflow_eval_dataset/kitti-od/data_odometry_velodyne/visualization/anchors.ply")
+    # save_bounding_boxes_as_mesh(anchors, "./sceneflow_eval_dataset/kitti-od/data_odometry_velodyne/visualization/anchors.ply")
     anchors = anchors.float().to(device='cuda')
 
     data = make_data_loader(cfg, phase='test')
